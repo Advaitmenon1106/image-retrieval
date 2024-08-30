@@ -42,5 +42,3 @@ while True:
     url_bfs_traversal(graphObj=graph, srcNode=parentUrl)
     c-=1
     pickle.dump(graph, open('./graph_progress2.pickle', 'wb'))
-
-pickle.dump(graph, open('./graph_progress2.pickle', 'wb'))
